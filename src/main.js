@@ -1,8 +1,9 @@
-import Vue from 'vue'
-import App from './App.vue'
+import './normalize'
+import app from './app'
 
-Vue.config.productionTip = false
+// Enable progressive web app support (with offline-plugin)
+if (process.env.NODE_ENV === 'production') {
+  require('./pwa')
+}
 
-new Vue({
-  render: h => h(App),
-}).$mount('#app')
+app().$mount('#app')

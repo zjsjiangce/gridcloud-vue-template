@@ -1,0 +1,63 @@
+{
+  "code": 200,
+  "success": true,
+  "data": [
+    {
+      "moduleName": "测试菜单",
+      "isParent": true,
+      "ename": "portal:system-config",
+      "ico": "iconfont icon-xtsz-xtsz",
+      "permissions": [
+        {
+          "id": "512620598935249946",
+          "cname": "Tpl",
+          "moduleName": "测试菜单",
+          "urlTarget": "",
+          "normalUrl": "/tpl",
+          "ico": "",
+          "levelType": 3,
+          "appKey": "tq-zjgrid-system-config",
+          "jumpType": "normal",
+          "apiUrl": ""
+        },
+        {
+          "id": "512620598935209946",
+          "cname": "Hello",
+          "moduleName": "测试菜单",
+          "urlTarget": "",
+          "normalUrl": "/hello",
+          "ico": "",
+          "levelType": 3,
+          "appKey": "tq-zjgrid-system-config",
+          "jumpType": "normal",
+          "apiUrl": ""
+        },
+        {
+          "id": "512620598935249947",
+          "cname": "iframe",
+          "moduleName": "测试菜单",
+          "urlTarget": "",
+          "normalUrl": "https://www.baidu.com/",
+          "ico": "",
+          "levelType": 3,
+          "appKey": "tq-zjgrid-system-config",
+          "jumpType": "iframe",
+          "apiUrl": ""
+        },
+        {
+          "id": "512620598935249948",
+          "cname": "前端组件库",
+          "moduleName": "测试菜单",
+          "urlTarget": "",
+          "normalUrl": "http://192.168.1.11:8083/",
+          "ico": "",
+          "levelType": 3,
+          "appKey": "tq-zjgrid-system-config",
+          "jumpType": "open",
+          "apiUrl": ""
+        }
+      ]
+    }
+  ],
+  "msg": "操作成功"
+}
