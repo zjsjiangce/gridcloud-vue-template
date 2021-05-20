@@ -58,7 +58,7 @@ export const initModule = (state, emitter, baseRouter) => {
   // 以开发模式调用模块加载函数 对base的路由需新增一层 dev 路径
   const router =  Router(process.env.NODE_ENV === 'development' ? `${base}/dev` : `${base}/pro`)
   // 以开发模式调用模块加载函数 对请求的baseurl需要写全路径，因为框架很可能不存在相关代理，而请求的发出的环境为框架环境
-  process.env.NODE_ENV === 'dev-module' && http.setOption({
+  process.env.NODE_ENV === 'development' && http.setOption({
     conf: {
       baseUrl: 'http://localhost:3000/api', // 此处端口号修改为 本地联调 模式下输出的端口号
     },
