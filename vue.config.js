@@ -8,7 +8,7 @@ const path = require('path')
 
 module.exports = {
   pluginOptions: {
-    PROJ_TYPE: '<%= projectType %>', // 项目类型
+    PROJ_TYPE: 'module', // 项目类型
     EXTERNAL_OPTIONS: {},
   },
   css: {
@@ -23,11 +23,11 @@ module.exports = {
   },
   devServer: {
     proxy: {
-      '/api': {
-        target: 'http://192.168.100.242:5080/',
-        changeOrigin: true,
-        pathRewrite: { '^/api': '' },
-      },
+      // '/api': {
+      //   target: 'http://192.168.100.242:5080/',
+      //   changeOrigin: true,
+      //   pathRewrite: { '^/api': '' },
+      // },
     },
   },
 }
