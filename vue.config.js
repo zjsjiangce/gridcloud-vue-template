@@ -8,7 +8,7 @@ const path = require('path')
 
 module.exports = {
   pluginOptions: {
-    PROJ_TYPE: 'module', // 项目类型
+    PROJ_TYPE: '<%= projectType %>', // 项目类型
     EXTERNAL_OPTIONS: {},
   },
   css: {
